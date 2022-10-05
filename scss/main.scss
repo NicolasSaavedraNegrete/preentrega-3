@@ -1,0 +1,118 @@
+$color-secciones: #008080;
+$gradiente-secciones: linear-gradient(90deg, rgba(0,128,128,1) 77%, rgba(9,64,75,1) 93%);
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+header{
+    background-color: $color-secciones;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar{
+    background: $color-secciones;
+background: $gradiente-secciones;
+&-brand{
+    width: 100px;
+}
+}
+
+.logo{
+    display: flex;
+    height: 90px;
+    width: 100px;
+}
+
+.tarjeta{
+    width: 300px;
+height: 400px;
+border: 1px solid black;
+display: flex;
+justify-content: space-around;
+align-items: center;
+flex-direction: column;
+&__imagen{
+    width: 80%;
+}
+&__boton{
+    background-color: $color-secciones;
+    padding: 10px;
+    border-radius: 15px;
+}
+&__boton:hover{
+    color: tomato;
+}
+}
+
+.novedades__titulo{
+    background: rgb(0,128,128);
+background: linear-gradient(90deg, rgba(0,128,128,1) 77%, rgba(9,64,75,1) 93%);
+    padding: 25px;
+    text-align: center;
+}
+
+.slider__productos{
+    display: flex;
+}
+.novedades__titulo{
+    background: $color-secciones;
+background: $gradiente-secciones;
+    padding: 25px;
+    text-align: center;
+}
+
+.slider__productos{
+    display: flex;
+}
+
+.formulario{
+    display: flex;
+flex-direction: column;
+align-items: center;
+&__boton{
+    background-image: linear-gradient(to right, #314755 0%, #26a0da  51%, #314755  100%);
+    margin: 10px;
+    padding: 10px ;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px
+}
+&__caja{
+    display: flex;
+    width: 100%;
+    padding: 10px;
+    border: 1px;
+    border-radius: 4px;
+}
+}
+
+footer{
+    background: $color-secciones;
+background: $gradiente-secciones;
+    /* width: 100%; */
+    
+}
+.c-blanco{
+    color: white;
+}
+
+.subtitulo{
+    font-size: large;
+}
+
+li{
+    list-style: none;
+}

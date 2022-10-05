@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../style/estilos.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="container-fluid d-flex justify-content-center bg-warning">
+        <div> Contactanos a nuestro Whatsapp +56947096639<i class="bi bi-whatsapp m-2"></i>
+        </div>
+    </header>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html"><img src="../img/tekmachinelogo.png" alt="" class="w-100"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./ingreso.html">Ingreso</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./quienessomos.html">Quienes Somos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/garantiaydevolucion.html">Garatias</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Productos
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Tarjetas de video</a></li>
+                  <li><a class="dropdown-item" href="#">Placas Madre</a></li>
+                  <li><a class="dropdown-item" href="#">Gabienetes</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    
+    <main>
+      <section class=" container formulario">
+        <h2 class="">Registrate</h2>
+
+        <form action="">
+            <div>
+                <label for="nombre_completo">Nombre Completo:</label>
+                <input class="caja-formulario" type="text" id="nombre_completo" name="nombre_completo"
+                    placeholder="Nicolas Saavedra Negrete" required>
+            </div>
+
+            <div>
+                <label for="rut">RUT:</label>
+                <input class="caja-formulario" type="text" id="rut" name="rut" placeholder="11.111.111-1" required>
+
+            </div>
+            <div>
+                <label for="direccion">Direccion:</label>
+                <input class="caja-formulario" type="text" id="direccion" name="direccion" placeholder="Av. Grecia 1984" required>
+            </div>
+            <div>
+                <label for="comuna">Comuna:</label>
+                <input class="caja-formulario" type="text" id="comuna" placeholder="Pudahuel" required>
+            </div>
+
+            <div>
+                <label for="region">Region</label>
+                <select class="caja-formulario" name="region" id="region">
+                    <option value="">Aisen del General Carlos Ibanez</option>
+                    <option value="">Antofagasta</option>
+                    <option value="">Araucania</option>
+                    <option value="">Arica y Parinacota</option>
+                    <option value="">Atacama</option>
+                    <option value="">Bio-Bio</option>
+                    <option value="">Coquimbo</option>
+                    <option value="">Libertador General Bernardo O'Higgins</option>
+                    <option value="">Los Lagos</option>
+                    <option value="">Los Rios</option>
+                    <option value="">Magallanes y de la Antartica Chilena</option>
+                    <option value="">Maule</option>
+                    <option value="">Region Metropolitana</option>
+                    <option value="">Tarapaca</option>
+                    <option value="">Valparaiso</option>
+                </select>
+            </div>
+            <div>
+                <label for="correo">Correo Electronico:</label>
+                <input class="caja-formulario" type="email" id="correo" name="correo" placeholder="ventas@tekmachine.cl" required>
+            </div>
+
+            <div>
+                <label for="fono">Telefono:</label>
+                <input class="caja-formulario" type="tel" id="fono" name="fono" placeholder="+56986429758" required>
+            </div>
+            <div>
+                <label for="password">Contrasena:</label>
+                <input class="caja-formulario" type="password" id="password" required>
+            </div>
+            <p>Estoy de acuerdo con los <a href="./garantiaydevolucion.html">Terminos y Condiciones</a><input type="checkbox" class="check-boton" required></p>
+            <div>
+                <input class="boton-formulario" type="submit" value="Crear Cuenta">
+                <input class="boton-formulario" type="reset" value="Borrar">
+            </div>
+            
+        </form>
+    </section>
+
+    </main>
+
+    <!-- footer--pagina principal -->
+    <footer class="container-fluid c-blanco">
+
+        <div class="container">
+        
+        
+        <div class="row">
+
+            <div class="d-flex flex-column align-items-center col-lg-3">   
+                <img src="./img/logotekmachineblanco.png" alt="" class="w-50">
+                <p> Nicolas saavedra @ 2022 Todos los derechos reservados </p>
+        
+        
+                <span>ventas@tekmachine.cl</span>
+        
+            </div>
+        
+            <div class="col-3">
+                <h4 class="d-flex justify-content-center"> Siguenos en nuestras redes sociales </h4>
+                <div class="d-flex justify-content-around fs-2">
+                <i class="bi bi-instagram"></i>
+                <i class="bi bi-facebook"></i>
+                <i class="bi bi-whatsapp"></i>
+                <i class="bi bi-twitter"></i>
+            </div>
+            </div>
+        <div class="col-3">
+            <div class="d-flex justify-content-center">Visitanos!</div>
+            <p class="d-flex justify-content-center"><i class="bi bi-geo-alt"></i><a href="https://www.google.com/maps/place/Bartolom%C3%A9+Coleone+7721,+Las+Condes,+7560566,+Regi%C3%B3n+Metropolitana/@-33.4018521,-70.5513576,17z/data=!3m1!4b1!4m5!3m4!1s0x9662cec74408b029:0x9ef6fa18962a5c2!8m2!3d-33.4018521!4d-70.5513576" class="link-light">Bartolome Coleone 7721, Las condes</a></p>
+        </div>
+        </div>
+        
+        </div>
+        
+        </footer>
+
+    <script src="../js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
