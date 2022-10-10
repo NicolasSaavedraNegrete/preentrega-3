@@ -1,0 +1,13 @@
+$color-secciones: #008080;
+$gradiente-secciones: linear-gradient(90deg, rgba(0,128,128,1) 77%, rgba(9,64,75,1) 93%);
+
+.novedades__titulo{
+    background: rgb(0,128,128);
+background: linear-gradient(90deg, rgba(0,128,128,1) 77%, rgba(9,64,75,1) 93%);
+    padding: 25px;
+    text-align: center;
+}
+
+.slider__productos{
+    display: flex;
+}

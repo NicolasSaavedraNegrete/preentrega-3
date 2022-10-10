@@ -24,12 +24,6 @@ header {
   width: 100px;
 }
 
-.logo {
-  display: flex;
-  height: 90px;
-  width: 100px;
-}
-
 .tarjeta {
   width: 300px;
   height: 400px;
@@ -47,30 +41,19 @@ header {
   padding: 10px;
   border-radius: 15px;
 }
-.tarjeta__boton:hover {
-  color: tomato;
-}
 
-.novedades__titulo {
-  background: rgb(0, 128, 128);
-  background: linear-gradient(90deg, rgb(0, 128, 128) 77%, rgb(9, 64, 75) 93%);
-  padding: 25px;
-  text-align: center;
-}
-
-.slider__productos {
-  display: flex;
-}
-
-.novedades__titulo {
+footer {
   background: #008080;
   background: linear-gradient(90deg, rgb(0, 128, 128) 77%, rgb(9, 64, 75) 93%);
-  padding: 25px;
-  text-align: center;
+  /* width: 100%; */
 }
 
-.slider__productos {
-  display: flex;
+.c-blanco {
+  color: white;
+}
+
+.subtitulo {
+  font-size: large;
 }
 
 .formulario {
@@ -96,18 +79,21 @@ header {
   border-radius: 4px;
 }
 
-footer {
-  background: #008080;
+.logo {
+  display: flex;
+  height: 90px;
+  width: 100px;
+}
+
+.novedades__titulo {
+  background: rgb(0, 128, 128);
   background: linear-gradient(90deg, rgb(0, 128, 128) 77%, rgb(9, 64, 75) 93%);
-  /* width: 100%; */
+  padding: 25px;
+  text-align: center;
 }
 
-.c-blanco {
-  color: white;
-}
-
-.subtitulo {
-  font-size: large;
+.slider__productos {
+  display: flex;
 }
 
 li {

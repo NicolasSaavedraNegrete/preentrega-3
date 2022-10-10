@@ -1,0 +1,20 @@
+$color-secciones: #008080;
+$gradiente-secciones: linear-gradient(90deg, rgba(0,128,128,1) 77%, rgba(9,64,75,1) 93%);
+
+.tarjeta{
+    width: 300px;
+height: 400px;
+border: 1px solid black;
+display: flex;
+justify-content: space-around;
+align-items: center;
+flex-direction: column;
+&__imagen{
+    width: 80%;
+}
+&__boton{
+    background-color: $color-secciones;
+    padding: 10px;
+    border-radius: 15px;
+}
+}
