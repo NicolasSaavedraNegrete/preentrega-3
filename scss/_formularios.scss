@@ -2,7 +2,8 @@ $color-secciones: #008080;
 $gradiente-secciones: linear-gradient(90deg, rgba(0,128,128,1) 77%, rgba(9,64,75,1) 93%);
 
 .formulario{
-    display: flex;
+height: 75vh;
+display: flex;
 flex-direction: column;
 align-items: center;
 &__boton{
@@ -22,4 +23,5 @@ align-items: center;
     border: 1px;
     border-radius: 4px;
 }
+
 }

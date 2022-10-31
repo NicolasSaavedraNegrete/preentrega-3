@@ -25,9 +25,11 @@ header {
 }
 
 .tarjeta {
+  margin: 10px;
   width: 300px;
   height: 400px;
   border: 1px solid black;
+  border-radius: 10px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -40,6 +42,14 @@ header {
   background-color: #008080;
   padding: 10px;
   border-radius: 15px;
+}
+
+.imagen-procesador {
+  width: 50%;
+}
+
+.imagen-video {
+  width: 35%;
 }
 
 footer {
@@ -57,6 +67,7 @@ footer {
 }
 
 .formulario {
+  height: 75vh;
   display: flex;
   flex-direction: column;
   align-items: center;

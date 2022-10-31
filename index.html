@@ -46,9 +46,9 @@
                   Productos
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Tarjetas de video</a></li>
-                  <li><a class="dropdown-item" href="#">Placas Madre</a></li>
-                  <li><a class="dropdown-item" href="#">Gabienetes</a></li>
+                  <li><a class="dropdown-item" href="./pages/tarjetasvideo.html">Tarjetas de video</a></li>
+                  <li><a class="dropdown-item" href="./pages/placasmadre.html">Placas Madre</a></li>
+                  <li><a class="dropdown-item" href="./pages/gabinetes.html">Gabienetes</a></li>
                 </ul>
               </li>
             </ul>
@@ -60,10 +60,10 @@
     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="./img/banermsi3.png" class="d-block w-100" alt="...">
+            <img src="./img/banner-principal.png" class="d-block w-100" alt="...">
           </div>
           <div class="carousel-item">
-            <img src="./img/bannermsi2.png" class="d-block w-100" alt="...">
+            <img src="./img/banner-principa-dos.png" class="d-block w-100" alt="...">
           </div>
           
         </div>
@@ -80,21 +80,21 @@
     <main>
 
         <!-- Seccion Categorias -->
-        <section class="categorias">
+        <section class="categorias container">
             
             <h2 class="shadow p-3 mb-5 bg-body rounded categoria">Categorias</h2>
             <ul class="list-group">
-              <li class="list-group-item"><a href="">Procesadores</a></li>
-              <li class="list-group-item"><a href="">Placas Madre</a></li>
-              <li class="list-group-item"><a href="">Tarjetas de Video</a></li>
-              <li class="list-group-item"><a href="">Gabinetes</a></li>
-              <li class="list-group-item"><a href="">Monitores</a></li>
+              <li class="list-group-item"><a href="./pages/procesadores.html">Procesadores</a></li>
+              <li class="list-group-item"><a href="./pages/placasmadre.html">Placas Madre</a></li>
+              <li class="list-group-item"><a href="./pages/tarjetasvideo.html">Tarjetas de Video</a></li>
+              <li class="list-group-item"><a href="./pages/gabinetes.html">Gabinetes</a></li>
+              <li class="list-group-item"><a href="./pages/monitores.html">Monitores</a></li>
             </ul>
         
     </section>
         <!-- Seccion Novedades -->
         
-<section>
+<section class="container">
             <h2 class="novedades__titulo fs-1 text-light shadow p-3 mb-5">Novedades</h2>
         <div class="slider__productos">
             <article class="tarjeta">
@@ -105,7 +105,29 @@
 
                 <span class="tarjeta__precio">$589.990</span>
 
-                <a href="" class="tarjeta__boton link-light">Comprar</a>
+                <button data-bs-toggle="modal" data-bs-target="#myModal" class="tarjeta__boton link-light">Anadir al Carro</button>
+
+                <div class="modal" id=myModal>
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+
+                      <div class="modal-header">
+                        <h4 class="modal-titulo">Se ha anadido tu producto al carro</h4>
+                        <button class="btn btn-close" data-bs-dismiss="modal"></button>
+
+                      </div>
+                      <div class="modal-body">
+                        Puedes seguir comprando o finalizar la compra dirigiendote al carro
+                      </div>
+
+                      <div class="modal-footer">
+                        <button class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
+                      </div>
+
+                    </div>
+
+                  </div>
+                </div>
 
             
             </article>
@@ -118,50 +140,72 @@
 
                 <span class="tarjeta__precio">$1.435.500</span>
 
-                <a href="" class="tarjeta__boton link-light">Comprar</a>
+                <button data-bs-toggle="modal" data-bs-target="#myModal" class="tarjeta__boton link-light">Anadir al Carro</button>
 
+                <div class="modal" id=myModal>
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+
+                      <div class="modal-header">
+                        <h4 class="modal-titulo">Se ha anadido tu producto al carro</h4>
+                        <button class="btn btn-close" data-bs-dismiss="modal"></button>
+
+                      </div>
+                      <div class="modal-body">
+                        Puedes seguir comprando o finalizar la compra dirigiendote al carro
+                      </div>
+
+                      <div class="modal-footer">
+                        <button class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
+                      </div>
+
+                    </div>
+
+                  </div>
+                </div>
             
             </article>
             
         </div>
     
+        
         </section>
 
     
     </main>
-    <!-- footer--pagina principal -->
-    <footer class="container-fluid c-blanco">
+    <!-- footer-- -->
+    <footer class="container-fluid c-blanco ">
 
+      
       <div class="container">
       
-      
-      <div class="row">
+      <div class="row p-3 pb-1">
 
-          <div class="d-flex flex-column align-items-center col-lg-3">   
-              <img src="./img/logotekmachineblanco.png" alt="" class="w-50">
-              <p> Nicolas saavedra @ 2022 Todos los derechos reservados </p>
+          <div class="d-flex flex-column align-items-center col-xs-12 col-md-4 col-lg-4">   
+              <img src="./img/logotekmachineblanco.png" alt="" class="w-25">
+              <p class="m-0"> Nicolas saavedra @ 2022 Todos los derechos reservados </p>
       
       
               <span>ventas@tekmachine.cl</span>
       
           </div>
       
-          <div class="col-3">
+          <div class="col-xs-12 col-md-4 col-lg-4">
               <h4 class="d-flex justify-content-center"> Siguenos en nuestras redes sociales </h4>
-              <div class="d-flex justify-content-around fs-2">
-              <i class="bi bi-instagram"></i>
-              <i class="bi bi-facebook"></i>
-              <i class="bi bi-whatsapp"></i>
-              <i class="bi bi-twitter"></i>
+              <div class="d-flex justify-content-around fs-2 p-5">
+              <a href="https://www.instagram.com/" class="link-light fs-2"><i class="bi bi-instagram"></i></a>
+              <a href="https://www.facebook.com/" class="link-light fs-2"><i class="bi bi-facebook"></i></a>
+              <a href="https://web.whatsapp.com/" class="link-light fs-2"><i class="bi bi-whatsapp"></i></a>
+              <a href="https://twitter.com/" class="link-light fs-2"><i class="bi bi-twitter"></i></a>
           </div>
           </div>
-      <div class="col-3">
-          <div class="d-flex justify-content-center">Visitanos!</div>
+      <div class="col-xs-12 col-md-4 col-lg-4">
+          <h4 class="d-flex justify-content-center">Visitanos!</h4>
           <p class="d-flex justify-content-center"><i class="bi bi-geo-alt"></i><a href="https://www.google.com/maps/place/Bartolom%C3%A9+Coleone+7721,+Las+Condes,+7560566,+Regi%C3%B3n+Metropolitana/@-33.4018521,-70.5513576,17z/data=!3m1!4b1!4m5!3m4!1s0x9662cec74408b029:0x9ef6fa18962a5c2!8m2!3d-33.4018521!4d-70.5513576" class="link-light">Bartolome Coleone 7721, Las condes</a></p>
       </div>
       </div>
       
-      </div>
+    </div>
       
       </footer>
 
